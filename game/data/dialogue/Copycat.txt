@@ -1,0 +1,20 @@
+{
+    "idle": [
+        "Meow",
+        "Mrow",
+        "Ekekek",
+        "Mewl"
+    ],
+    "attack": [
+        "Prrr",
+        "Meow!",
+        "Brrr",
+        "Mrrrp"
+    ],
+    "hurt": [
+        "Hiss",
+        "Grrr",
+        "Hrrrk",
+        "Rrrrr"
+    ]
+}

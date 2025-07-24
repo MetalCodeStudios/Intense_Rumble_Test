@@ -1,0 +1,33 @@
+{
+  "idle": [
+    "This is fun! Haha!",
+    "Am I good at this? Be honest.",
+    "Gracie, are you watching?",
+    "I'm so ready to rumble!",
+    "I'm just happy to be here, really",
+    "Graaacieee! Where are you?",
+    "Some people call me loud, but I'm just vibrantly expressive",
+    "Hey, my name's Gregley"
+  ],
+  "attack": [
+    "Hey! Catch this!",
+    "Horn Launch!",
+    "Hope you brought a helmet, cause this is gonna hurt!",
+    "I can always grow new ones really quickly",
+    "Horns Away!",
+    "Those are my horns! Not my ears.",
+    "Was that impressive, was it?",
+    "Aaaaaand launch!"
+  ],
+  "hurt": [
+    "I'm alright!",
+    "Okay, okay, that kinda hurt",
+    "I'm still good, right?",
+    "That was slightly painful, ouch!",
+    "Gracie definitely did not see that, right?",
+    "I'm not crying! You are! Wait, I may be, just a little.",
+    "I didn't see that coming",
+    "You are tougher than I thought"
+  ]
+}
+

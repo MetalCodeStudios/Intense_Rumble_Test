@@ -1,0 +1,25 @@
+{
+    "idle": [
+        "Chaos, I love it.",
+        "Not gonna lie, this is fun",
+        "Yo, dude",
+        "You wouldn\u2019t want to know what I can do",
+        "I smell chaos"
+    ],
+    "attack": [
+        "Hahahaha",
+        "Dude, did you see that?",
+        "You\u2019re kinda slow",
+        "You just gotta try harder, as if you could",
+        "I\u2019m red, and soon you will be dead",
+        "You seem confused",
+        "Chaos and Confusion"
+    ],
+    "hurt": [
+        "Ow! Hey!",
+        "I wasn\u2019t ready yet",
+        "Give me a break, man",
+        "Go away!",
+        "Dude!"
+    ]
+}

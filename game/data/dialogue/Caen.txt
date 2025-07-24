@@ -1,0 +1,38 @@
+{
+    "idle": [
+        "Jingle Jingle",
+        "Candy Cane",
+        "Caen Cane",
+        "Jolly Jolly",
+        "Christmas Good",
+        "Caen is I",
+        "I fly",
+        "Am the Caen",
+        "Me is Jolly",
+        "Merry Merry"
+    ],
+    "attack": [
+        "Sharp Cane",
+        "Cane Attack",
+        "Attack Attack",
+        "My Attack",
+        "Snow Down",
+        "No Jolly You",
+        "The cane pain?",
+        "Cane Go",
+        "Am Attack",
+        "Look me do attack"
+    ],
+    "hurt": [
+        "Caen Pain",
+        "This Pain",
+        "I heal friends",
+        "You Naughty",
+        "You No Jolly",
+        "Friends faster now",
+        "Maybe you Crack I",
+        "Why do you this?",
+        "I help friends",
+        "I help I help"
+    ]
+}

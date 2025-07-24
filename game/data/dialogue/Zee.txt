@@ -1,0 +1,13 @@
+{
+    "idle": [
+        "...",
+        "HAHAHAHAHAA"
+    ],
+    "attack": [
+        "UOY"
+    ],
+    "hurt": [
+        "w",
+        ":)"
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "idle": [
+        "Fluff",
+        "I'm fluffy",
+        "I'm a fluffy fluffball",
+        "Taphygrafy, that's me!",
+        "I see a Taphygrafy, I see a Taphygrafy!"
+    ],
+    "attack": [
+        "Fluff Attack!",
+        "Hehehehe",
+        "Fluff Fluff",
+        "Fluffiness",
+    ],
+    "hurt": [
+        "No!",
+        "Ow!",
+        "That hurts!",
+        "Ouch!"
+    ]
+}

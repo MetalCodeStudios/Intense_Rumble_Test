@@ -1,0 +1,44 @@
+{
+    "idle": [
+        "There's more to see, and more to be",
+        "I'm Yellow Spark, this shall be a walk in the park",
+        "Yellow and bright, that's who I am",
+        "Yellow Spark, that's me",
+        "Let's do this",
+        "Let's fight",
+        "Time to rumble!",
+        "I'm not just Yellow Spark, I'm a beam of hope and energy",
+        "Yellow Spark!"
+    ],
+    "attack": [
+        "Solar Dart!",
+        "Pew! There goes my power!",
+        "Watch out, you're about to be blinded by this light!",
+        "This may blind you, just a little",
+        "Electrifying performance!",
+        "A dart made out of my power",
+        "I'm about to light things up!",
+        "Hehehe"
+    ],
+    "hurt": [
+        "I'll shake that off",
+        "I still glow, even on the inside",
+        "Is that all you got?",
+        "I stay bright, no matter what",
+        "Ouch... That kinda hurt...",
+        "Hey! Ow!",
+        "Still shining...",
+        "I'm still standing"
+    ],
+    "skill": [
+        "I shine brightest when I help others",
+        "You're now charged up and ready",
+        "Time for you to fight!",
+        "Shine bright, always",
+        "Don't give up!",
+        "You'll shine just like me",
+        "Charging you up, make it count",
+        "Glow Strong",
+        "Spark Charge!"
+    ]
+}

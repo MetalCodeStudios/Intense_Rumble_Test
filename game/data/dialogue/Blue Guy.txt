@@ -1,0 +1,22 @@
+{
+    "idle": [
+        "This shouldn't be a problem.",
+        "You wouldn't want to know what happens next",
+        "This shouldn't be hard to deal with.",
+        "This fight isn't going to last long, I know it."
+    ],
+    "attack": [
+        "Take that!",
+        "This is only the beginning",
+        "What do you think?",
+        "I'm Blue, Da ba dee da ba di",
+        "This will end soon",
+        "Don't move"
+    ],
+    "hurt": [
+        "Ouch! That hurts!",
+        "Calm down",
+        "You aren't my friend, never have been",
+        "If regret is a thing, then you would know that real soon..."
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "idle": [
+        "Hi, I'm Jam Jar",
+        "Hi",
+        "I'm Jam Jar",
+        "I'm a Jar you don't want to mess with",
+        "Attacking and defending, you need to be prepared for what's to come",
+        "Get ready for a jam-packed attack!",
+        "Watch me spread the pain",
+        "I'm Jam Jar, the strongest rumbler by far"
+    ],
+    "attack": [
+        "Wasn't that jam-packed?",
+        "Defense or attack, I'm still Jam Jar",
+        "Jam Attack",
+        "This is going to leave a mark",
+        "Taste the slam, straight from the jam"
+    ],
+    "hurt": [
+        "Things are getting messy",
+        "You can't break me, I'm jarred and tough",
+        "You can't hurt me, I'm Jam Jar",
+        "Ow",
+        "Don't even try, I'm a jar that cannot be broken",
+        "I'm the opposite of fragile"
+    ],
+    "offense": [
+        "Lid Off",
+        "The tables have turned",
+        "My lid shall defend",
+        "Time to Protect",
+        "Ready to defend, ready for battle"
+    ],
+    "defense": [
+        "Lid On",
+        "A change in the game",
+        "Back to the top, goes my lid",
+        "Time to Attack",
+        "Ready to attack, ready for battle"
+    ]
+}

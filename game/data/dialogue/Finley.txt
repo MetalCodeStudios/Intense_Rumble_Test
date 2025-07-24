@@ -1,0 +1,20 @@
+{
+    "idle": [
+        "...",
+        "Let's just get this over with",
+        "You seem like you want to die",
+        "You are about to eat my knife"
+    ],
+    "attack": [
+        "...",
+        "Dying is simple",
+        "Life is meaningless, your death means nothing",
+        "You're hurt, good"
+    ],
+    "hurt": [
+        "...",
+        "Argh",
+        "I want to die anyway",
+        "Thanks, I deserve this anyway"
+    ]
+}

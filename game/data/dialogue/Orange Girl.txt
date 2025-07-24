@@ -1,0 +1,35 @@
+{
+    "idle": [
+        "I can do this",
+        "I got this",
+        "I just gotta aim and fire",
+        "Three shots, coming right up",
+        "Orange for the win",
+        "I'm orange, and so is my favourite fruit!",
+        "Orange Girl's my name, rumbling's my game",
+        "I'm ready to shoot a three shot"
+    ],
+    "attack": [
+        "Triple fire",
+        "Pew pew pew",
+        "Catch this!",
+        "I'm not holding back",
+        "There it goes",
+        "Take that!",
+        "One, two, three",
+        "Was my aim okay?",
+        "I'm thinking of a better name for my attack, but for now I'll call it Three Shot"
+    ],
+    "hurt": [
+        "That's not gonna stop me",
+        "Ow, that kinda hurt you know",
+        "You can't stop me now",
+        "I'll keep on fighting",
+        "Give me a sec",
+        "Ouch! Ouch!",
+        "I should've reacted quicker",
+        "I could've dodged that",
+        "I can dodge! It's like my legs are refusing to listen to me!",
+        "Ow! That hurts!"
+    ]
+}

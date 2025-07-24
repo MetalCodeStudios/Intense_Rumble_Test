@@ -1,0 +1,25 @@
+{
+    "idle": [
+        "Itsy bitsy Ocho",
+        "I may be small, but I will not stall.",
+        "Watch me spin",
+        "Spin, spin, spin",
+        "Hola, soy Ocho"
+    ],
+    "attack": [
+        "Web Attack!",
+        "Get Webbed!",
+        "You just got webbed!",
+        "Spinning to victory!",
+        "Gotcha!",
+        "Jajaja"
+    ],
+    "hurt": [
+        "Ow!",
+        "This isn't some kind of prank right?",
+        "Hey!",
+        "That wasn't very nice",
+        "This is a sticky situation!",
+        "Estoy Herido"
+    ]
+}

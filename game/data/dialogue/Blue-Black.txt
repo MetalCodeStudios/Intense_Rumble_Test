@@ -1,0 +1,35 @@
+{
+    "idle": [
+        "I'm good, really good",
+        "You wouldn't want to mess with me would you?",
+        "Blue Guy, more like, Poo Guy",
+        "I'm strong and I know it",
+        "I was the chosen one, I deserve this power",
+        "Hey man, what's up",
+        "Watch out friends, I'm here to save you",
+        "I'll make this short and quick"
+    ],
+    "attack": [
+        "Too bad for you, this is what I gotta do",
+        "I'm so strong!",
+        "How did you like that?",
+        "I'm the best, right?",
+        "I'm here to knock you back",
+        "How was that? Painful?",
+        "I thought you would dodge, but I guess I'm just faster",
+        "I'm just good at this",
+        "That wasn't even my strongest attack",
+        "I'm just going easy on you, you know?"
+    ],
+    "hurt": [
+        "Hey! Hey! You better watch it.",
+        "I'm not to be messed with, you wouldn't want what's coming for you",
+        "I'm gonna get you, real soon",
+        "Not my face!",
+        "Minor setback, major comeback",
+        "Your standing in the way of my victory",
+        "Just a scratch, nothing much",
+        "Is that all you got!?"
+    ]
+}
+

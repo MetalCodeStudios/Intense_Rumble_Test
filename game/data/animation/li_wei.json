@@ -1,0 +1,44 @@
+{
+  "idle": {
+    "anim": "idle",
+    "loopThrough": [],
+    "useLoop": true,
+    "frameRate": 12
+  },
+  "attackPrep": {
+    "anim": "attackPrep",
+    "loopThrough": [],
+    "useLoop": false,
+    "frameRate": 30
+  },
+  "hurt": {
+    "anim": "hurt",
+    "loopThrough": [],
+    "useLoop": false,
+    "frameRate": 30
+  },
+  "attack": {
+    "anim": "attack",
+    "loopThrough": [],
+    "useLoop": false,
+    "frameRate": 30
+  },
+  "dodge": {
+    "anim": "dodge",
+    "loopThrough": [],
+    "useLoop": false,
+    "frameRate": 30
+  },
+  "death": {
+    "anim": "hurt",
+    "loopThrough": [],
+    "useLoop": false,
+    "frameRate": 30
+  },
+  "skill": {
+    "anim": "attack",
+    "loopThrough": [],
+    "useLoop": false,
+    "frameRate": 30
+  }
+}

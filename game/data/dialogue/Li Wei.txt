@@ -1,0 +1,20 @@
+{
+    "idle": [
+        "This is what I have decided to do.",
+        "Seems like I am doing this again.",
+        "Sometimes, violence is the answer..."
+    ],
+    "attack": [
+        "Let us make things equal.",
+        "I have done this before.",
+        "Can't believe I'm doing this again.",
+        "Why am I doing this?"
+    ],
+    "hurt": [
+        "Ouch!",
+        "I've experienced things worse than this",
+        "i've seen things worse than this.",
+        "I will strike back",
+        "This isn't over yet..."
+    ]
+}

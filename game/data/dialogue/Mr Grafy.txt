@@ -1,0 +1,41 @@
+{
+    "idle": [
+        "Refill and Rumble",
+        "Tea prepared. Hat secured. Let's Begin.",
+        "A fine day for a good rumble. Who's ready?",
+        "Tidy hat? Check. Hot drink? Check. Let's proceed.",
+        "Ah, the calm before the cup gets flung",
+        "A good brew solves most situations",
+        "A fine hat, a finer aim"
+    ],
+    "attack": [
+        "Would you like a cup of tea?",
+        "Extra hot! Just for you.",
+        "Did I scald you?",
+        "Delightful performance, wasn't it?",
+        "Pardon the mess, it's just part of my plan",
+        "I may be small in stature, but I assure you, I'm one not to be messed with",
+        "Arriving piping hot!",
+        "Do mind the temperature",
+        "Splendid",
+        "The secret to winning, is what's in the hat"
+    ],
+    "hurt": [
+        "You almost knocked down my hat!",
+        "I think I'm over-caffeinated",
+        "Not my hat! Not my hat!",
+        "How uncivilised!",
+        "That was so uncalled for!",
+        "Easy now, you wouldn't want to knock my hat down",
+        "Watch your manners!"
+    ],
+    "skill": [
+        "A cup of coffee, specially for you",
+        "Enjoy your coffee",
+        "Drink up, it's going to help",
+        "Nothing like some coffee, to raise one's spirit",
+        "Here's some coffee to keep you energised",
+        "Let caffeine and courage carry you forward",
+        "A cup for you, with excellence in every drop"
+    ]
+}

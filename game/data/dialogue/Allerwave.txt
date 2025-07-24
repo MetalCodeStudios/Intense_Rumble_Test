@@ -1,0 +1,22 @@
+{
+    "idle": [
+        "Hey what's up!",
+        "Why am I even fighting?",
+        "You know, I suggest you guys flee this battle.",
+        "Have you met the Creator?",
+	"Non canonically, I'm just a dev self insert. Canon wise? I dunno, probably don't exist."
+    ],
+    "attack": [
+        "Seriously?",
+        "Why did you want me to attack?",
+        "Can't we resolve this peacefully?",
+        "Man I wish there was a mercy button.",
+        "You! The player, just stop alright?"
+    ],
+    "hurt": [
+        "Hey!",
+        "Dude! Stop!!",
+        "What the fuck!?",
+        "Ow!"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "idle": [
+        "..."
+    ],
+    "attack": [
+        "Take that!"
+    ],
+    "hurt": [
+        "Ow"
+    ]
+}

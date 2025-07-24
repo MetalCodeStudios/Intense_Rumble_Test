@@ -1,0 +1,40 @@
+{
+    "idle": [
+        "AHH",
+        "I'M SCREAMY",
+        "I'M ABOUT TO SCREAM",
+        "SCREAM SCREAM",
+        "I'M JUST WARMING UP MY VOICE",
+        "CAN ANYONE HEAR ME?",
+        "MY NAME IS SCREAMY",
+        "I'M GOING TO SCREAM!",
+        "READY TO SCREAM",
+        "AM I TOO SOFT?"
+    ],
+    "attack": [
+        "AAAAAAAA!!",
+        "SCREECH!",
+        "SCREEEAAAMY!!!",
+        "HRAAAAGH!",
+        "YOU'RE NOT READY FOR THIS!",
+        "IS THIS LOUD ENOUGH!?",
+        "CAN YOU HEAR ME!?",
+        "I'LL MAKE IT EVEN LOUDER NEXT TIME!",
+        "I FLOAT AND I SCREAM!",
+        "DO YOU LIKE MY VOICE!?"
+    ],
+    "hurt": [
+        "OOOOW!!!",
+        "THAT HURTS!",
+        "NOOOOO!!!",
+        "AAAAHHH!",
+        "STOOOP!!",
+        "HEEEEEY!!!",
+        "AATEFGTDGHCVY!!!!!",
+        "AERTDTRYGRJBK!!?",
+        "YOU'RE NOT NICE!!",
+        "OOOUUCCCH!!!",
+        "BAD! BAAD!! BAAAD!!!",
+        "OOYIGNBKIIOFYCV!!!"
+    ]
+}

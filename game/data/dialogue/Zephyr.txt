@@ -1,0 +1,13 @@
+{
+    "idle": [
+        "...",
+        "Prepare to die."
+    ],
+    "attack": [
+        "Submit."
+    ],
+    "hurt": [
+        "Get away!",
+        "Get your dirty hands off my crown!"
+    ]
+}

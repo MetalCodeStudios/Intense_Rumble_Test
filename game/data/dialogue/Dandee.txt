@@ -1,0 +1,45 @@
+{
+    "idle": [
+        "Time to Kill!",
+        "Some people are just asking to be killed.",
+        "May the wind bless me.",
+        "Is somebody asking to be killed?",
+        "I can't wait to see you in so much pain!",
+        "I only joined this game to see you all suffer!"
+    ],
+    "attack": [
+        "Look at them fly!",
+        "Watching you suffer fuels my happiness.",
+        "You make me want to laugh!",
+        "I can smell your agony.",
+        "I can't wait to see you die!",
+        "Breath while you still can!",
+        "I love it when I can see you all suffer!",
+        "Keep struggling, it's really pleasing to see.",
+        "Hehehe"
+    ],
+    "hurt": [
+        "Argh!",
+        "Oh, look who thinks they're better than me.",
+        "Watch it!",
+        "This isn't over yet!",
+        "I'm not done with you just yet!",
+        "It hurts, but I'm completely fine"
+    ],
+    "dodge": [
+        "Aim better next time.",
+        "You're so stupid!",
+        "You suck!",
+        "Hahaha! You missed!",
+        "Wow, you're so bad!",
+        "That's a skill issue right there."
+    ],
+    "deathReaction": [
+        "Hahaha!",
+        "It must've been embarrassing to die like that!",
+        "That's just skill issue.",
+        "Defeated just like that? Really?",
+        "Is it just me or does seeing someone die make me wanna laugh?",
+        "Everyone, keep on dying, it's just fun to watch!"
+    ]
+}

@@ -1,0 +1,51 @@
+{
+  "idle": {
+    "anim": [
+	"idle_0.png",
+	"idle_1.png",
+	"idle_2.png",
+	"idle_3.png",
+	"idle_4.png",
+	"idle_5.png"
+	],
+    "loopThrough": [],
+    "useLoop": true,
+    "frameRate": 30
+  },
+  "attackPrep": {
+    "anim": ["attackPrep_0.png"],
+    "loopThrough": [],
+    "useLoop": false,
+    "frameRate": 30
+  },
+  "hurt": {
+    "anim": ["hurt_0.png"],
+    "loopThrough": [],
+    "useLoop": false,
+    "frameRate": 30
+  },
+  "attack": {
+    "anim": ["attack_0.png"],
+    "loopThrough": [],
+    "useLoop": false,
+    "frameRate": 30
+  },
+  "dodge": {
+    "anim": ["idle_0.png"],
+    "loopThrough": [],
+    "useLoop": false,
+    "frameRate": 30
+  },
+  "death": {
+    "anim": ["hurt_0.png"],
+    "loopThrough": [],
+    "useLoop": false,
+    "frameRate": 30
+  },
+  "skill": {
+    "anim": ["attack_0.png"],
+    "loopThrough": [],
+    "useLoop": false,
+    "frameRate": 30
+  }
+}

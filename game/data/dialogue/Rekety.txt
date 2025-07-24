@@ -1,0 +1,26 @@
+{
+    "idle": [
+        "What should I say...",
+        "I would like to be your friend, but not anymore.",
+        "If you want to leave this battle, please do so",
+        "I wish I could be kind now, but I won't",
+        "Bring it on",
+        "You better get ready"
+    ],
+    "attack": [
+        "Are you having any second thoughts?",
+        "I have no choice, this is the path to victory.",
+        "You seem to be bleeding",
+        "I see that you are bleeding",
+        "I'm sorry, I must"
+    ],
+    "hurt": [
+        "I am currently controlling myself, don't push it.",
+        "Things never get any better, only worse.",
+        "Don't push me...",
+        "Ow!",
+        "You are on thin ice",
+        "If you keep this up, you will soon regret it",
+        "Hey!"
+    ]
+}

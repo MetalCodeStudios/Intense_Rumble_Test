@@ -1,0 +1,61 @@
+{
+    "idle": [
+        "Please don't hurt me I didn't sign up for this",
+        "No! I don't want to play this!",
+        "Why am I here? I want out!",
+        "You can't believe how hard is it to live like me",
+        "Please tell me how I can get out of here",
+        "I've never signed up for this! Never!",
+        "I never wanted to be here and I'm somehow here",
+        "I didn't ask for this, I want out!",
+        "Please, I don't wanna play this game",
+        "No! I don't want to play!",
+        "I don't want to play this game, I want to forfeit",
+        "Can I forfeit?",
+        "Where can I forfeit",
+        "When can I go?",
+        "Nooooo I want to go home",
+        "I want to go home now, no more games",
+        "No more games, I mean it. I want out.",
+        "I want out"
+    ],
+    "attack": [
+        "I don't want to fight, I don't want to fight",
+        "I don't want to fight and I don't know how to get out of here",
+        "I want out, I don't want to fight",
+        "Please don't hurt me, I didn't mean it!",
+        "This hurts for me more than it hurts for you",
+        "I don't want to fight, it hurts, literally",
+        "Please I didn't mean it, don't attack me next",
+        "No, please don't do anything!",
+        "I don't want to do this",
+        "This hurts you know, not for you, for me",
+        "Ouch, I don't want to do this",
+        "I've never wanted to do this, why am I here doing this?"
+    ],
+    "hurt": [
+        "Nonononono!",
+        "Help! Help me!",
+        "Aaarrrggghhh",
+        "Nonono, please don't",
+        "No! I didn't sign up for this!",
+        "NOOOO!! I want out now!!",
+        "Please don't hurt me! Please!",
+        "Please don't, please don't",
+        "Pain pain pain pain pain pain",
+        "So much pain, stop",
+        "Stop now stop now stop now",
+        "Ow ow ow ow ow",
+        "Owwww!",
+        "Hey, no please",
+        "No, please, no",
+        "I'm the weakest, at least kill me last",
+        "I never wanted to play this!",
+        "Nooooooo Nooooooooo",
+        "Noooooooo Stop!",
+        "Why me?"
+    ],
+    "dodge": [
+        "Wait... I did it! I actually did it! I dodged an attack! I DID IT!!!"
+    ]
+}

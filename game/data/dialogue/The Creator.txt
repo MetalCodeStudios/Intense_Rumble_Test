@@ -1,0 +1,13 @@
+{
+    "idle": [
+        "Hello.",
+	"I seems to be lacking legs. Allerwave why in the world did you draw me like this",
+	"I'm not even added officially yet."
+    ],
+    "attack": [
+        "..."
+    ],
+    "hurt": [
+        "Ouch!"
+    ]
+}

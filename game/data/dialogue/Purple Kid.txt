@@ -1,0 +1,23 @@
+{
+    "idle": [
+        "I'm not stopping until I win",
+        "I got this in the bag",
+        "Watch and learn",
+        "I'm purple and I'm ready to hurdle",
+        "I'm purple and I'm ready to rumble"
+    ],
+    "attack": [
+        "I'm not helping you",
+        "Winning isn't just a goal, it's compulsory",
+        "Good piece of advice: dodge better next time",
+        "You should've been dead by now",
+        "How do you like that?"
+    ],
+    "hurt": [
+        "Oops! Better luck next time.",
+        "This isn't over",
+        "Ow",
+        "You better watch out",
+        "Hey! You could've at least tell me!"
+    ]
+}

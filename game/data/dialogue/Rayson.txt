@@ -1,0 +1,24 @@
+{
+    "idle": [
+        "Target Detected!",
+        "Robots are stronger than humans",
+        "Target must be destroyed!",
+        "This fight is pointless, give up and let me win"
+    ],
+    "attack": [
+        "Target Damaged",
+        "Can you feel the pain?",
+        "I think I broke a wire.",
+        "Hahaha",
+        "Pew, hah",
+        "You cannot hide.",
+        "You are weaker than I thought"
+    ],
+    "hurt": [
+        "Do you not know? Robots can feel pain!",
+        "I will destroy you!",
+        "New target found",
+        "ERROR",
+        "I think you broke a wire."
+    ]
+}

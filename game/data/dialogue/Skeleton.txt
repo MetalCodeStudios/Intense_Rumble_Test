@@ -1,0 +1,11 @@
+{
+    "idle": [
+        "..."
+    ],
+    "attack": [
+        "Submit."
+    ],
+    "hurt": [
+        "Think you can defeat me?"
+    ]
+}

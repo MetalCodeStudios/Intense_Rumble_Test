@@ -1,0 +1,32 @@
+"events": [
+	{
+	"trigger": "turn == 0",
+	"actions": [
+		{ 
+		"type": "dialogue", 
+		"speaker": "Allerwave", 
+		"line": "I suck lol", 
+		"emotion": "None"
+		},
+		{ 
+		"type": "changeAction", 
+		"actions": ["Fight"]
+		}
+		]
+	},
+	{
+	"trigger": "turn == 0 and party[0].missCount == 1",
+	"actions": [
+		{
+		"type": "dialogue", 
+		"speaker": "Allerwave", 
+		"line": "Bro how u miss on first turn", 
+		"emotion": "None"
+		},
+		{
+		"type": "proceedNextTurn",
+		"doProceed": false
+		}
+		]
+	
+]

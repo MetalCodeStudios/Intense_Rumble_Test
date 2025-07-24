@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Lock.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="skill0000" x="0" y="705" width="410" height="652" frameX="-382" frameY="-265" frameWidth="1000" frameHeight="1000"/>
+	<SubTexture name="attackPrep0000" x="1122" y="0" width="558" height="682" frameX="-204" frameY="-245" frameWidth="1000" frameHeight="1000"/>
+	<SubTexture name="hurt0000" x="571" y="0" width="551" height="705" frameX="-196" frameY="-221" frameWidth="1000" frameHeight="1000"/>
+	<SubTexture name="idle0000" x="0" y="0" width="571" height="705" frameX="-197" frameY="-221" frameWidth="1000" frameHeight="1000"/>
+	<SubTexture name="attack0000" x="0" y="705" width="410" height="652" frameX="-382" frameY="-265" frameWidth="1000" frameHeight="1000"/>
+</TextureAtlas>

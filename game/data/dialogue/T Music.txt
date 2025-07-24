@@ -1,0 +1,30 @@
+{
+    "idle": [
+        "Music Time!",
+        "Piano Time!",
+        "I am Taphygrafy Music",
+        "I may be a Taphygrafy, but don't confuse me for my friend",
+        "Playing the piano is fun"
+    ],
+    "attack": [
+        "Melody Burst!",
+        "The power of music",
+        "My wonderful piano",
+        "Amazing keyboard",
+        "People have to appreciate music more"
+    ],
+    "hurt": [
+        "Don't break my keyboard!",
+        "Hey, that wasn't nice of you",
+        "Ow!",
+        "Hey! Hey!",
+        "Please don't do this to me"
+    ],
+    "special": [
+        "Listen to this!",
+        "Enjoy listening",
+        "Healing Tunes",
+        "Hear my tunes",
+        "Did you like that?"
+    ]
+}

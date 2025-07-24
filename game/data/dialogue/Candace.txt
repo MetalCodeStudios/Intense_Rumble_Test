@@ -1,0 +1,28 @@
+{
+    "idle": [
+        "Merry Christmas, everyone!",
+        "Happy Holidays",
+        "Life's short, add a little sweetness",
+        "This cane isn't just for show, you'll taste some soon",
+        "Bells are jingling and I'll be winning",
+        "Ready to taste the cane?",
+        "To me, everyday is Christmas!",
+        "Are you feeling jolly?"
+    ],
+    "attack": [
+        "Candy Cane Chaos",
+        "Time for you to taste the cane",
+        "Looks like you're on the naughty list hehehe",
+        "Candy-coated chaos isn't for the weak",
+        "Why don't you taste this delicious treat",
+        "Taste this!"
+    ],
+    "hurt": [
+        "Looks like there's someone on the naughty list this year",
+        "That hurts, you know that?",
+        "You're ruining the Christmas spirit!",
+        "Someone's not receiving presents this year!",
+        "Oh please, is that all you got?",
+        "I won't be surprised if all you got for Christmas is coal"
+    ]
+}

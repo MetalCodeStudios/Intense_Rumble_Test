@@ -1,0 +1,43 @@
+{
+    "idle": [
+        "Wh4t?",
+        "My n4me is pronounced 4s four-minti",
+        "Prep4re to t4ke 4im",
+        "I 4m re4dy to rumble",
+        "4n 4tt4ck from me is incoming",
+        "I'll show them wh4t I c4n do",
+        "These guys w4nt to fight!",
+        "W4tch me do this",
+        "I 4m re4dy when you 4re"
+    ],
+    "attack": [
+        "My 4rm is not to be messed with",
+        "4rm 4tt4ck!",
+        "I c4n 4lw4ys get a new one",
+        "4n enemy h4s been spotted",
+        "4tt4ck!",
+        "I c4ll this 4tt4ck 4ero 4rm",
+        "4ero 4rm!",
+        "T4ke th4t!"
+    ],
+    "skill": [
+        "Th4t's wh4t I c4ll He4dshot",
+        "He4dshot! Get it?",
+        "My he4d is 4lw4ys re4dy to 4tt4ck",
+        "W4tch out for my he4d",
+        "You c4n't move now, c4n you?",
+        "My he4d's out!",
+        "Firing 4 He4dshot!",
+        "C4n you do the s4me?"
+    ],
+    "hurt": [
+        "4hh! Th4t hurts!",
+        "44444",
+        "4nother rumbler in d4 w4y",
+        "Th4t w4s b4d",
+        "How 4nnoying!",
+        "4re you trying to m4ke me 4ngry?",
+        "I won't let you t4ke me down, th4t e4sily!",
+        "Th4t hurts, you know?"
+    ]
+}

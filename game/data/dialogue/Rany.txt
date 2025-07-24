@@ -1,0 +1,18 @@
+{
+    "idle": [
+        "How did I get here?",
+        "I thought I was somewhere else, battling somebody else.",
+        "Where is Zr anyway?"
+    ],
+    "attack": [
+        "Yes! Gotcha!",
+        "Pencil stab go!",
+        "Get poked!"
+    ],
+    "hurt": [
+        "Ow crap!!",
+        "Ahh!",
+        "Stop!",
+        "Screw you! I can regenerate!!"
+    ]
+}

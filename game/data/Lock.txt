@@ -1,0 +1,9 @@
+{'idle': 
+	[
+		'Fluff',
+		'I'm fluffy',
+		'I'm a fluffy fluffball',
+		'Hiyo!'
+	]
+
+}

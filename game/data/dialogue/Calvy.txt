@@ -1,0 +1,25 @@
+{
+    "idle": [
+        "This must be a fun game!",
+        "Do you want to draw with me?",
+        "Hi, I'm Calvy",
+        "Hello!"
+    ],
+    "attack": [
+        "So fun!",
+        "Taste the Paper!",
+        "Hehehe",
+        "Haha",
+        "Yay!"
+    ],
+    "hurt": [
+        "Ouchie!",
+        "That hurts!",
+        "You hurt my feelings!",
+        "Stop!",
+        "Pain!",
+        "Painful!",
+        "You are a bad person!",
+        "I'm just a child!"
+    ]
+}

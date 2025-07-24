@@ -1,0 +1,44 @@
+{
+    "idle": [
+        "Hi, I'm Locon",
+        "Do you like pizza?",
+        "I love eating pizza",
+        "Pizza is the best food ever",
+        "A slice of pizza can fix many things",
+        "Pizza is delicious",
+        "Pizza is the best thing in the whole universe",
+        "One day, I'll throw a pizza party",
+        "You can't rumble without pizza",
+        "My pizza cutter is ready to slice some rumblers"
+    ],
+    "attack": [
+        "Slice Time!",
+        "No pizza for you!",
+        "I only share pizza with my friends and allies, not enemies",
+        "Let's slice things up",
+        "I plan to throw a pizza party if I win this battle",
+        "You can't run from my pizza cutter",
+        "If I give you a pizza, it'll taste like defeat",
+        "Don't worry, I use a separate cutter for my pizza"
+    ],
+    "hurt": [
+        "I may not win, but I have pizza",
+        "Hey! No more pizza for you!",
+        "That's one way to ruin a pizza party",
+        "You… don't like pizza!?",
+        "That hurt more than I thought...",
+        "Ouch! Don't do that to me!",
+        "Hey! Hey! Hey!",
+        "You just ruined my appetite..."
+    ],
+    "skill": [
+        "Have a taste on this delicious pizza",
+        "Specially for you",
+        "I hope you'll like this!",
+        "Doesn't it taste good?",
+        "Pizza!",
+        "Hot and Ready!",
+        "One slice, coming right up",
+        "Eat up"
+    ]
+}
