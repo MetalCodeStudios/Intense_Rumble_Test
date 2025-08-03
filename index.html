@@ -136,6 +136,17 @@ async def custom_site():
         else:
             print("MM is not available in platform.window")
 
+        print("track:", track)
+        print("dir(track):", dir(track))
+
+        try:
+            print("track.ready:", track.ready)
+            print("track.pos:", track.pos)
+            print("track.len:", track.len)
+        except Exception as e:
+            print("Track access error:", e)
+
+
 
     marginx = ux(.020) # 20%
     marginy = uy(.045) # 45%
