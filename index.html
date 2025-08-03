@@ -125,8 +125,17 @@ async def custom_site():
             },
             "path": f"/ => {mount_point}",
         }
-    
-        track = platform.window.MM.prepare("game/", json.dumps(cfg))
+        print(json.dumps(cfg, indent=4))
+
+        if hasattr(platform.window, "MM"):
+            if hasattr(platform.window.MM, "prepare"):
+                print("Calling prepare...")
+                track = platform.window.MM.prepare("game/", json.dumps(cfg))
+            else:
+                print("prepare() is not available on MM")
+        else:
+            print("MM is not available in platform.window")
+
 
     marginx = ux(.020) # 20%
     marginy = uy(.045) # 45%
