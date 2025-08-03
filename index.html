@@ -120,11 +120,12 @@ async def custom_site():
             "io": "url",
             "type": "mount",
             "mount": {
-                "point": mount_point,
-                "path": f"{folder}",
+                "point": "/game",
+                "path": "game"
             },
-            "path": f"./ => {mount_point}",
+            "path": "./ => /game"
         }
+    
         print(json.dumps(cfg, indent=4))
 
         if hasattr(platform.window, "MM"):
