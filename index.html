@@ -62,7 +62,7 @@ async def custom_site():
     import embed
 
 
-    platform.document.body.style.background = "#7f7f7f"
+    platform.document.body.style.background = "#7f0000"
 
     import pygame
 
@@ -126,7 +126,7 @@ async def custom_site():
             "path": f"/ => {mount_point}",
         }
     
-        track = platform.window.MM.prepare(folder, json.dumps(cfg))
+        track = platform.window.MM.prepare("game/", json.dumps(cfg))
 
     marginx = ux(.020) # 20%
     marginy = uy(.045) # 45%
