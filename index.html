@@ -130,7 +130,7 @@ async def custom_site():
         if hasattr(platform.window, "MM"):
             if hasattr(platform.window.MM, "prepare"):
                 print("Calling prepare...")
-                track = platform.window.MM.prepare("game/", json.dumps(cfg))
+                track = platform.window.MM.prepare("game", json.dumps(cfg))
             else:
                 print("prepare() is not available on MM")
         else:
