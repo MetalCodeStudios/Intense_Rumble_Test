@@ -1,25 +1,34 @@
-<html lang="en-us"><script src="https://pygame-web.github.io/archives/0.9/pythons.js" type=module id=site data-LINES=57 data-CONSOLE=25 data-python=python3.12 data-os=vtx,fs,snd,gui async defer>#<!--
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<meta charset="utf-8">
+<title>intense.rumble.endless</title>
+<script src="https://pygame-web.github.io/archives/0.9/pythons.js"
+        type="module"
+        id="site"
+        data-LINES="57"
+        data-CONSOLE="25"
+        data-python="python3.12"
+        data-os="vtx,fs,snd,gui"
+        async defer>
+</script>
+</head>
+<body style="background:#7f0000;">
+
+<script type="text/python">
 
 print("""
-Loading intense.rumble.endless from intense.rumble.endless.apk
+Loading intense.rumble.endless from /game folder
     Pygbag Version : 0.9.2
     Template Version : 0.9.0
     Python  : 3.12
-    CDN URL : https://pygame-web.github.io/archives/0.9/
     Screen  : 1280x720
     Title   : intense.rumble.endless
-    Folder  : intense.rumble.endless
-    Authors : pgw
-    SPDX-License-Identifier: cookiecutter.spdx
-
+    Folder  : game
 """)
 
-
-# screen pixels (real, hardware)
-WIDTH=1024  # 1280
-HEIGHT=600  # 720
-
-# reference/idealized screen pixels
+WIDTH=1024
+HEIGHT=600
 REFX = 1980
 REFY = 1080
 
@@ -33,38 +42,19 @@ def u(real, ref, v):
 
 def ux(*argv):
     global WIDTH, REFX
-    acc = 0
-    for v in argv:
-        acc += u(WIDTH, REFX, v)
-    return acc
+    return sum(u(WIDTH, REFX, v) for v in argv)
 
 def uy(*argv):
     global HEIGHT, REFY
-    acc = 0
-    for v in argv:
-        acc += u(HEIGHT, REFY, v)
-    return acc
+    return sum(u(HEIGHT, REFY, v) for v in argv)
 
-
-
-
-# do not rename
 async def custom_site():
-
-    import sys
-    import asyncio
-    import platform
-    import json
+    import sys, asyncio, platform, json
     from pathlib import Path
-
-
-
     import embed
-
+    import pygame
 
     platform.document.body.style.background = "#7f0000"
-
-    import pygame
 
     def compose():
         pygame.display.update()
@@ -74,125 +64,76 @@ async def custom_site():
     pygame.font.init()
 
     screen = pygame.display.set_mode([ux(.100),uy(.100)], pygame.SRCALPHA, 32)
-    screen.set_colorkey( (0,0,0,0), pygame.RLEACCEL )
-    screen.fill( (0,0,0,0) )
-
+    screen.set_colorkey((0,0,0,0), pygame.RLEACCEL)
+    screen.fill((0,0,0,0))
     compose()
 
-    platform.window.transfer.hidden = true
+    platform.window.transfer.hidden = True
     platform.window.canvas.style.visibility = "visible"
 
-    fileType = "folder"
-
-    folder = "tree/main/game"
-    mount_point = "tree/main/game"
-    apk = "intense.rumble.endless.apk"
-
+    # Now we host the folder on GitHub Pages
+    # So we can use a relative path, no 'tree/main/game'
+    folder = "game"
+    mount_point = "game"
     bundle = "intense.rumble.endless"
 
-    # the C or js loader could do that but be explicit. Apk file hidden.
-    
-    if fileType == "apk":
-        appdir = Path(f"/data/data/{bundle}") # /data/data/intense.rumble.endless
-        appdir.mkdir()
+    appdir = Path(f"/data/data/{folder}")
+    appdir.mkdir(parents=True, exist_ok=True)
+
+    cfg = {
+        "io": "url",
+        "type": "mount",
+        "mount": {
+            "point": appdir.as_posix(),
+            "path": "/",
+        },
+        # This will map ./game (served by Pages) into WASM /data/data/game
+        "path": f"./game => {appdir.as_posix()}",
+    }
+    print(json.dumps(cfg, indent=4))
+
+    track = None
+    if hasattr(platform.window, "MM") and hasattr(platform.window.MM, "prepare"):
+        print("Calling prepare to mount folder...")
+        track = platform.window.MM.prepare(mount_point, json.dumps(cfg))
     else:
-        appdir = Path(f"/data/data/{folder}")
-        appdir.mkdir(parents=True, exist_ok=True)
+        print("Mount manager not available in this environment")
 
-
-    # mount apk
-    if fileType == "apk":
-        cfg = {
-            "io": "url",
-            "type":"mount",
-            "mount" : {
-                "point" : appdir.as_posix(),
-                "path" : "/",
-            },
-            "path" : f"/ => {appdir.as_posix()}",
-        }
-    
-    
-        track = platform.window.MM.prepare(apk, json.dumps(cfg))
-    else:
-
-        cfg = {
-            "io": "url",
-            "type": "mount",
-            "mount": {
-                "point": appdir.as_posix(),
-                "path": f"/",
-            },
-            "path": f"./ => {appdir.as_posix()}",
-        }
-        print(json.dumps(cfg, indent=4))
-
-        if hasattr(platform.window, "MM"):
-            if hasattr(platform.window.MM, "prepare"):
-                print("Calling prepare...")
-                track = platform.window.MM.prepare(mount_point, json.dumps(cfg))
-            else:
-                print("prepare() is not available on MM")
-        else:
-            print("MM is not available in platform.window")
-
-        print("track:", track)
-        print("dir(track):", dir(track))
-
-        try:
-            print("track.ready:", track.ready)
-            print("track.pos:", track.pos)
-            print("track.len:", track.len)
-        except Exception as e:
-            print("Track access error:", e)
-
-
-
-    marginx = ux(.020) # 20%
-    marginy = uy(.045) # 45%
-
+    marginx = ux(.020)
+    marginy = uy(.045)
 
     def pg_bar(pos):
-        nonlocal marginx, marginy
-        # resolution of progress bar, recalculate since it may not be know yet.
-        total = track.len or 10  # avoid div0
-        slot = ux(.060)/ total # 60%
+        total = track.len or 10
+        slot = ux(.060)/ total
+        pygame.draw.rect(screen,(10,10,10),
+                         (marginx-ux(10), marginy-uy(10),
+                          (total*slot)+ux(20), uy(110)))
+        pygame.draw.rect(screen,(0,255,0),
+                         (marginx, marginy, track.pos*slot, uy(90)))
 
-        pygame.draw.rect(screen,(10,10,10),( marginx-ux(10), marginy-uy(10), (total*slot)+ux(20), uy(110) ) )
-        pygame.draw.rect(screen,(0,255,0), ( marginx, marginy, track.pos*slot, uy(90)) )
-
-    # wait until zip mount + overlayfs is complete
-    while not track.ready:
+    # wait until folder is ready
+    while track and not track.ready:
         pg_bar(track.pos)
         compose()
         await asyncio.sleep(.1)
 
-    # fill it up in case it was cached and instant download
     pg_bar(track.len)
     compose()
 
+    # Run Python main script from game folder
+    platform.run_main(PyConfig, loaderhome=appdir, loadermain=None)
 
-    # preloader will change dir and prepend it to sys.path
-    platform.run_main(PyConfig, loaderhome= appdir, loadermain=None)
-
-
-    # wait preloading complete
-    # that includes images and wasm compilation of bundled modules
+    # Wait for preload to complete
     while embed.counter()<0:
         await asyncio.sleep(.1)
 
     main = appdir / "main.py"
 
-    # start async top level machinery and add a console.
+    # Start async toplevel
     await TopLevel_async_handler.start_toplevel(platform.shell, console=window.python.config.debug)
-
-    # now that apk is mounted we have access to font cache
-    # but we need to fill __file__ that is not yet set
     __import__(__name__).__file__ = str(main)
 
-
-    # now make a prompt
-    fnt = pygame.sysfont.SysFont("freesans",  uy(80) )
+    fnt = pygame.sysfont.SysFont("freesans", uy(80))
 
     def ui_callback(pkg, error=None):
         nonlocal fnt
@@ -204,32 +145,23 @@ async def custom_site():
         screen.blit(prompt, ( marginx+ ux(80), marginy - uy(10) ) )
         compose()
 
-    # test/wait if user media interaction required
     if not platform.window.MM.UME:
-
-        # now make a prompt
-        fnt = pygame.sysfont.SysFont("freesans",  uy(80) )
         prompt = fnt.render("Ready to start !", True, "blue")
         pg_bar(track.len)
         screen.blit(prompt, ( marginx+ ux(80), marginy - uy(10) ) )
         compose()
-        print("""
-        * Waiting for media user engagement : please click/touch page *
-    """)
+        print("* Waiting for media user engagement : please click/touch page *")
         while not platform.window.MM.UME:
             await asyncio.sleep(.1)
 
-    # cleanup
-    screen.fill( (0,0,0,0) )
+    screen.fill((0,0,0,0))
     pygame.display.flip()
-
     await shell.runpy(main, callback=ui_callback)
 
-
-
 import asyncio
+asyncio.run(custom_site())
 
-asyncio.run( custom_site() )
+
 
 
 
