@@ -27,18 +27,18 @@ Loading intense.rumble.endless from /game folder
     Folder  : game
 """)
 
-WIDTH=1024
-HEIGHT=600
+WIDTH = 1280
+HEIGHT = 720
 REFX = 1980
 REFY = 1080
 
 def u(real, ref, v):
-    if abs(v)<0.9999999:
-        result = int( (float(real)/100.0) * (v*1000))
-        if v<0:
+    if abs(v) < 0.9999999:
+        result = int((float(real)/100.0) * (v*1000))
+        if v < 0:
             return real-result
         return result
-    return int( (real/ref) * v )
+    return int((real/ref) * v)
 
 def ux(*argv):
     global WIDTH, REFX
@@ -63,7 +63,8 @@ async def custom_site():
     pygame.init()
     pygame.font.init()
 
-    screen = pygame.display.set_mode([ux(.100),uy(.100)], pygame.SRCALPHA, 32)
+    # --- FULL GAME WINDOW RESTORED ---
+    screen = pygame.display.set_mode([WIDTH, HEIGHT], pygame.SRCALPHA, 32)
     screen.set_colorkey((0,0,0,0), pygame.RLEACCEL)
     screen.fill((0,0,0,0))
     compose()
@@ -71,8 +72,6 @@ async def custom_site():
     platform.window.transfer.hidden = True
     platform.window.canvas.style.visibility = "visible"
 
-    # Now we host the folder on GitHub Pages
-    # So we can use a relative path, no 'tree/main/game'
     folder = "game"
     mount_point = "game"
     bundle = "intense.rumble.endless"
@@ -87,7 +86,6 @@ async def custom_site():
             "point": appdir.as_posix(),
             "path": "/",
         },
-        # This will map ./game (served by Pages) into WASM /data/data/game
         "path": f"./game => {appdir.as_posix()}",
     }
     print(json.dumps(cfg, indent=4))
@@ -96,22 +94,19 @@ async def custom_site():
     if hasattr(platform.window, "MM") and hasattr(platform.window.MM, "prepare"):
         print("Calling prepare to mount folder...")
         track = platform.window.MM.prepare(mount_point, json.dumps(cfg))
-    else:
-        print("Mount manager not available in this environment")
 
     marginx = ux(.020)
     marginy = uy(.045)
 
     def pg_bar(pos):
         total = track.len or 10
-        slot = ux(.060)/ total
+        slot = ux(.060) / total
         pygame.draw.rect(screen,(10,10,10),
                          (marginx-ux(10), marginy-uy(10),
                           (total*slot)+ux(20), uy(110)))
         pygame.draw.rect(screen,(0,255,0),
                          (marginx, marginy, track.pos*slot, uy(90)))
 
-    # wait until folder is ready
     while track and not track.ready:
         pg_bar(track.pos)
         compose()
@@ -120,8 +115,8 @@ async def custom_site():
     pg_bar(track.len)
     compose()
 
-    # Run Python main script from game folder
     platform.run_main(PyConfig, loaderhome=appdir, loadermain=None)
+
 
     # Wait for preload to complete
     while embed.counter()<0:
