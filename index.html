@@ -96,7 +96,7 @@ async def custom_site():
         appdir = Path(f"/data/data/{bundle}") # /data/data/intense.rumble.endless
         appdir.mkdir()
     else:
-        appdir = Path(mount_point)
+        appdir = Path(/data/data/mount_point)
         appdir.mkdir(parents=True, exist_ok=True)
 
 
@@ -120,10 +120,10 @@ async def custom_site():
             "io": "url",
             "type": "mount",
             "mount": {
-                "point": mount_point,
-                "path": f"{folder}",
+                "point": appdir.as_posix(),
+                "path": f"/",
             },
-            "path": f"./ => {mount_point}",
+            "path": f"./ => {appdir.as_posix()}",
         }
         print(json.dumps(cfg, indent=4))
 
