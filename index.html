@@ -84,8 +84,8 @@ async def custom_site():
 
     fileType = "folder"
 
-    folder = "game"
-    mount_point = "https://github.com/MetalCodeStudios/Intense_Rumble_Test/tree/main/game"
+    folder = "tree/main/game"
+    mount_point = "tree/main/game"
     apk = "intense.rumble.endless.apk"
 
     bundle = "intense.rumble.endless"
@@ -96,7 +96,7 @@ async def custom_site():
         appdir = Path(f"/data/data/{bundle}") # /data/data/intense.rumble.endless
         appdir.mkdir()
     else:
-        appdir = Path(f"/data/data/game")
+        appdir = Path(f"/data/data/{folder}")
         appdir.mkdir(parents=True, exist_ok=True)
 
 
